@@ -95,7 +95,7 @@ You will find the following Python scripts in this folder.
 | `v2_basicagent.py` | More complex CrewAI Agent for LM Studio users |
 | `v1_multiagent.py` | Multi-Agent CrewAI example for LM Studio users |
 | `crewai-gemini.py` | Basic CrewAI Agent for Gemini users |
-| `.env.example` | Environment configuration template for API keys and future usage |
+| `DOTENV.SAMPLE` | Environment configuration template for API keys and future usage |
 
 ## About the Gemini configuration
 
