@@ -563,8 +563,18 @@ traceback**, the output of the version commands above, and which script
 you were running. Never include API keys in your report.
 
 ------------------------------------------------------------------------
+## 9. Some Tips and Tricks to avoid running into LM Studio Issues as seen
 
-## 9. Final learning outcomes
+-   Some students experienced slow responses on Local LM Studio Setups and this could be because of the Model
+Sizing and memory consumption.
+-   Students are suggested to use a smaller model like Gemma 4 E2B or Gemma 4 E4B or Bonsai 8B.
+-   In LM Studio set an initial Context Length of 4K to start with.
+-   In the Code that we write, when you define the LLM object add these parameters: max_tokens=512, temperature=0.2, timeout=180, max_retries=2, max_iter=2 or 3.
+-   The Instructor given code is using longer Task and Agent Prompts, which can be shortened to avoid Longer or Costlier Input Token Costs.  Instructor will bear this in mind :smile: and advises Students to also try shorter prompts.
+-   With Gemini, it is advised to have more than One API Key for Students to use.
+
+------------------------------------------------------------------------
+## 10. Final learning outcomes
 
 By completing these exercises, you should be able to:
 
