@@ -1,0 +1,81 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Python build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking and linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+__manifest/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local databases, vector stores, and agent memory
+*.db
+*.sqlite
+*.sqlite3
+.lancedb/
+chroma_db/
+memory/
+storage/
+
+# Local model files (often very large)
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Local configuration
+config.local.*
+settings.local.*
+
+# OS files
+.DS_Store
